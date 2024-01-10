@@ -13,7 +13,8 @@ pub enum ExecuteMsg {
 
 #[cw_serde]
 pub enum QueryMsg {
-    GetCount{}
+    GetCount{},
+    GetTotalFunds {},
 }
 
 
