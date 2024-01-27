@@ -8,7 +8,8 @@ pub struct InstantiateMsg {
 
 #[cw_serde]
 pub enum ExecuteMsg {
-    Increment{}
+    Increment{},
+    Donate{},
 }
 
 #[cw_serde]
